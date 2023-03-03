@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* general */
+body {
+  background-color: white;
+  font-size: 18px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* header */
+header {
+  margin-top: 4em;
+  line-height: 1.5;
+}
+header h2 {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  color: orange;
+}
+.short {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 2em;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2em;
+  margin-top: 2.5em;
+}
+.estimate {
+  width: 130px;
+  height: 30px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.get-circle {
+  width: 16px;
+  margin-top: -2px;
+}
+.join {
+  width: 200px;
+  height: 30px;
+  background-color: #fd853a;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.rule-1 {
+  width: 1144;
+  height: 14;
+  color: orange;
+} /* this part of the code isnt resonding for some reason */
+
+/* main */
+main {
+  margin-top: 4em;
+}
+.we {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+#About {
+  background-color: #fffaf5;
+}
+
+.about-below {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  margin-top: 4em;
+}
+h3 {
+  font-size: 30px;
+}
+.are p {
+  margin-top: 1em;
+  /* max-width: 500px; */
+  font-size: 24px;
+}
+.learn {
+  width: 200px;
+  height: 50px;
+  margin-top: 2em;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fd853a;
+  color: white;
+}
+.globe {
+  width: 500px;
+  height: auto;
+}
+hr {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
