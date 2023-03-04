@@ -173,7 +173,7 @@ hr {
   margin-top: 3em;
 }
 .bottom-service {
-  margin-top: 4em;
+  margin-top: 5em;
   display: flex;
 }
 .left-bottom-service,
@@ -182,4 +182,22 @@ hr {
 }
 .stars {
   display: flex;
+}
+.avatar {
+  margin-top: 2em;
+  display: flex;
+  gap: 20px;
+}
+
+.avatar p {
+  display: grid;
+}
+.arrow {
+  display: flex;
+  gap: 1.2em;
+  margin-left: 60px;
+}
+
+.arrow img {
+  width: 40px;
 }
